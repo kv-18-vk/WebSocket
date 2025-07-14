@@ -1,29 +1,67 @@
+const express = require('express');
+const http = require('http');
 const WebSocket = require('ws');
-const server = new WebSocket.Server({ port: 3000 });
 
-let waitingPlayer = null;
+const app = express();
 
-server.on('connection', user => {
-  console.log("A player connected.");
+// Optional: handle root ping so Render knows the service is alive
+app.get('/', (req, res) => {
+  res.send("WebSocket server is running!");
+});
 
-  user.on('close',()=>{
-    console.log("player disconnected");
-  })
+const server = http.createServer(app);
+const wss = new WebSocket.Server({ server });
 
-  if(!waitingPlayer){
-    waitingPlayer = user;
-  }else{
-    player1 = waitingPlayer;
-    player2 = user;
-    waitingPlayer = null;
+const rooms = new Map();
+let waitingQueue = [];
 
-    player1.send(JSON.stringify({type:"status",msg:"Player Connected"}));
-    player2.send(JSON.stringify({type:"status",msg:"Player Connected"}));
-    
+function createRoom(player1, player2) {
+  const roomId = `${Date.now()}-${Math.random().toString(36).substring(2, 8)}`;
+  rooms.set(roomId, { player1, player2 });
 
+  player1.roomId = roomId;
+  player2.roomId = roomId;
+  player1.opponent = player2;
+  player2.opponent = player1;
+
+  [player1, player2].forEach(player => {
+    player.send(JSON.stringify({ type: "status"}));
+    player.on('message', msg => {
+        const parsed = JSON.parse(msg);
+        if (player.opponent && player.opponent.readyState === WebSocket.OPEN) {
+          player.opponent.send(JSON.stringify(parsed));
+        }
+    });
+
+    player.on('close', () => {
+      if (player.opponent && player.opponent.readyState === WebSocket.OPEN) {
+        player.opponent.send(JSON.stringify({ type: "opponent_quit" }));
+      }
+      rooms.delete(player.roomId);
+    });
+  });
+}
+
+wss.on('connection', (user) => {
+  waitingQueue.push(user);
+  if (waitingQueue.length >= 2) {
+    const player1 = waitingQueue.shift();
+    const player2 = waitingQueue.shift();
+    createRoom(player1, player2);
   }
 
+  user.on('close', () => {
+    waitingQueue = waitingQueue.filter(p => p !== ws);
+  });
 });
+
+
+// Render sets PORT - via env variable
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Server is listening on port ${PORT}`);
+});
+
 
 
 
