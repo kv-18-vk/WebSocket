@@ -51,7 +51,7 @@ wss.on('connection', (user) => {
   }
 
   user.on('close', () => {
-    waitingQueue = waitingQueue.filter(p => p !== ws);
+    waitingQueue = waitingQueue.filter(p => p !== user);
   });
 });
 
