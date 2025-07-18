@@ -53,13 +53,13 @@ The jacket had a purpose, and so did the boy. His purpose in life was to travel,
 theology. But ever since he had been a child, he had wanted to know the world, and this was much more important to him than knowing God and learning about man's sins. One afternoon, on a visit to his family, he had summoned up the courage to tell his father that he didn't want to become a priest. That he wanted to travel.
 
 
-"People from all over the world have passed through this village, son," said his father. "They come in search of new things, but when they leave they are basically the same people they were when they arrived. They climb the mountain to see the castle, and they wind up thinking that the past was better than what we have now. They have blond hair, or dark skin, but basically they're the same as the people who live right here."
+"People from all over the world have passed through this village, son" said his father. "They come in search of new things, but when they leave they are basically the same people they were when they arrived. They climb the mountain to see the castle, and they wind up thinking that the past was better than what we have now. They have blond hair, or dark skin, but basically they're the same as the people who live right here."
 "But I'd like to see the castles in the towns where they live," the boy explained.
 "Those people, when they see our land, say that they would like to live here forever," his father continued.
 "Well, I'd like to see their land, and see how they live," said his son.
-"Thepeoplewhocomeherehavealotofmoneytospend,sothey can afford to travel," his father said. "Amongst us, the only ones who travel are the shepherds."
+"The people who come here have a lot of money to spend, so they can afford to travel," his father said. "Amongst us, the only ones who travel are the shepherds."
 "Well, then I'll be a shepherd!"
-His father said no more. The next day, he gave his son a pouch that held three ancient Spanish gold coins.
+His father said no more. The next day, he gave his son a pouch that held three ancient Spanish gold coins. 
 "I found these one day in the fields. I wanted them to be a part of your inheritance. But use them to buy your flock. Take to the fields, and someday you'll learn that our countryside is the best, and our women are the most beautiful."
 
 
@@ -92,14 +92,14 @@ Another trick, the boy thought. But he decided to take a chance. A shepherd alwa
 
 
 He paused for a moment to see if the woman knew what the Egyptian pyramids were. But she said nothing.
-"Then, at the Egyptian pyramids," he said the last three words slowly, so that the old woman would understand "the child said to me, 'If you come here, you will find a hidden treasure.' And, just as she was about to show me the exact location, I woke up. Bothtimes."
+"Then, at the Egyptian pyramids," he said the last three words slowly, so that the old woman would understand "the child said to me, 'If you come here, you will find a hidden treasure.' And, just as she was about to show me the exact location, I woke up. Both times."
 The woman was silent for some time. Then she again took his hands and studied them carefully.
 
 "I'm not going to charge you anything now," she said. "But I want one-tenth of the treasure, if you find it."
 The boy laughed-out of happiness. He was going to be able to save the little money he had because of a dream about hidden treasure!
 "Well, interpret the dream," he said.
 "First, swear to me. Swear that you will give me one-tenth of your treasure in exchange for what I am going to tell you."
-The shepherd swore that he would. The old woman asked him to swear again while looking at the image of the Sacred Heart of Jesus. "It's a dream in the language of the world," she said. "I can interpret it, but the interpretation is very difficult. That's why I feel that
+The shepherd swore that he would. The old woman asked him to swear again while looking at the image of the Sacred Heart of Jesus. "It's a dream in the language of the world," she said. "I can interpret it, but the interpretation is very difficult. That's why I feel that 
 I deserve a part of what you find.
 "And this is my interpretation: you must go to the Pyramids in Egypt. I have never heard of them, but, if it was a child who showed them to you, they exist. There you will find a treasure that will make you a rich man."
 The boy was surprised, and then irritated. He didn't need to seek out the old woman for this! But then he remembered that he wasn't going to have to pay anything.
@@ -126,7 +126,7 @@ Meanwhile, the old man persisted in his attempt to strike up a conversation. He 
 But the old man wanted to talk, and he asked the boy what book he was reading. The boy was tempted to be rude, and move to another bench, but his father had taught him to be respectful of the elderly. So he held out the book to the man—for two reasons: first, that he, himself, wasn't sure how to pronounce the title; and second, that if the old man didn't know how to read, he would probably feel ashamed and decide of his own accord to change benches.
 "Hmm . . ." said the old man, looking at all sides of the book, as ifit were some strange object. "This is an important book, but it's really irritating."
 The boy was shocked. The old man knew how to read, and had already read the book. And if the book was irritating, as the old man had said, the boy still had time to change it for another.
-"It's a book that says the same thing almost all the other books in the world say,” continued the old man. "It describes people's inability to choose their own Personal Legends. And it ends up saying that everyone believes the world's greatest lie."
+"It's a book that says the same thing almost all the other books in the world say," continued the old man. "It describes people's inability to choose their own Personal Legends. And it ends up saying that everyone believes the world's greatest lie."
 "What's the world's greatest lie?" the boy asked, completely surprised.
 "It's this: that at a certain point in our lives, we lose control of what's happening to us, and our lives become controlled by fate. That's the world's greatest lie."
 "That's never happened to me," the boy said. "They wanted me to be a priest, but I decided to become a shepherd."
