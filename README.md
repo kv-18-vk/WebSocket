@@ -1,7 +1,8 @@
 # WebSocket 1v1 Server
 
 A Node.js backend for a 1v1 multiplayer application (potentially for use with the FastFingers typing speed tester). This project uses `express` and the `ws` library to handle real-time WebSocket connections, matchmaking, and message passing between paired clients.
-Check the typing speed tester app : [Fast Fingers]()
+
+Check the typing speed tester app : [Fast Fingers](https://github.com/kv-18-vk/Typing-Speed-Tester)
 
 ## Features
 
